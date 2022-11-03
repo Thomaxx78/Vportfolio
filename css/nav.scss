@@ -1,0 +1,103 @@
+header{
+    background-color: rgb(156, 166, 255);
+    margin-bottom: 100px;
+    width: 100%;
+    height: 100px;
+
+    .port{
+        color: white;
+        font-size: 250%;
+    }
+
+    li{
+        list-style: none;
+
+        a{
+            color: beige;
+            text-decoration: none;
+        }
+    }
+
+    nav {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(156, 166, 255);
+        margin-bottom: 100px;
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+        z-index: 1;
+
+        ul{
+            display: flex;
+            gap: 40px;
+            font-size: 35px;
+        }
+
+        .logotext{
+            display: flex;
+            text-align: center; 
+            margin: 5px;
+        }
+
+        .gdn{
+            color: beige;
+            font-size: 25px;
+            margin-top: 25px;
+            margin-left: 10px;
+        }
+        a{
+            img {
+                border-radius: 50%;
+                border-width: 3px;
+                border-style: solid;
+                border-color: beige;
+                height: 80px;
+                width: 80px;
+                margin: 0px;
+            }
+        }
+    }
+
+    .navbar{
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 24px;
+    }
+
+        .navmenu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 24px;
+        }
+
+        .nav-branding{
+            font-size: 2rem;
+        }
+        
+        .nav-link{
+            transition: 0.7s ease;
+        }
+
+        .nav-link:hover{
+            color: black;
+        }
+        
+        .hamburger{
+            display: none;
+            cursor: pointer;
+        }
+        
+        .bar{
+            display: block;
+            width: 25px;
+            height: 3px;
+            margin: 5px auto;
+            background-color: beige;
+        }
+    }

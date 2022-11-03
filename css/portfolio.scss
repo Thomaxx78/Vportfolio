@@ -1,0 +1,68 @@
+.portfolio{
+    .home{
+        display: flex;
+        justify-content: left;
+        margin-left: 5%;
+        gap: 4%;
+        margin-top: 300px;
+
+        a{
+            margin-top: 5px;
+            color: rgb(156, 166, 255);
+        }
+
+        img{
+            width: 40%;
+            border-radius: 10px;
+        }
+
+        .hometext{
+            display: flex;
+            flex-direction: column;
+            text-align:left;
+
+            h1{
+                color: white;
+                font-size: 50px; 
+            }
+
+            p{
+                color: rgb(157, 154, 154);
+                width: 80%; 
+                font-size: 120%;
+            }
+        }
+    }
+
+    .aubon{
+        display: flex;
+        justify-content: right;
+        margin-right: 5%;
+        gap: 4%;
+        margin-top: 300px;
+
+        img{
+            width: 40%;
+            border-radius: 10px;
+        }
+
+        .aubontext{
+            display: flex;
+            flex-direction: column;
+            text-align:right;
+
+            h1{
+                color: white;
+                font-size: 50px;
+            }
+
+            p{
+                color: rgb(157, 154, 154);
+                width: 80%;
+                margin-right: 0%;
+                margin-left: auto;
+                font-size: 120%;
+            }
+        }
+    }
+}

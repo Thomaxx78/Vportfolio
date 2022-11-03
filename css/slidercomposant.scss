@@ -1,0 +1,194 @@
+.container{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.front{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    h1{
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    img{
+        width: 80px;
+    }
+
+    .html{
+        display: flex;
+        align-items: center;
+        width: 70%;
+
+
+        .progressbar{
+            background-color: #9ca6ff;
+            color: white;
+            padding: 1rem;
+            text-align: right;
+            font-size: 20px;
+            border-radius: 15px;
+            width: 100%;
+        }
+    }
+
+    .css{
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+        width: 70%;
+
+        .progressbar{
+            background-color: #9ca6ff;
+            color: white;
+            padding: 1rem;
+            text-align: right;
+            font-size: 20px;
+            border-radius: 15px;
+            width: 90%;
+    }
+    }
+
+    .js{
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+        width: 70%;
+
+        .progressbar{
+            background-color: #9ca6ff;
+            color: white;
+            padding: 1rem;
+            text-align: right;
+            font-size: 20px;
+            border-radius: 15px;
+            width: 60%;
+    }
+
+    img{
+        width: 80px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    }
+
+    .php{
+        display: flex;
+        align-items: center;
+        width: 70%;
+
+        .progressbar{
+            background-color: rgb(156, 166, 255);
+            color: white;
+            padding: 1rem;
+            text-align: right;
+            font-size: 20px;
+            border-radius: 15px;
+            width: 50%;
+    }
+
+    img{
+        margin-right: 5px;
+    }
+    }
+
+    .donnes{
+        display: flex;
+        align-items: center;
+        width: 70%;
+
+        .progressbar{
+            background-color: #9ca6ff;
+            color: white;
+            padding: 1rem;
+            text-align: right;
+            font-size: 20px;
+            border-radius: 15px;
+            width: 50%;
+    }
+
+    img{
+        margin-right: 5px;
+    }
+    }
+
+    .XD{
+        display: flex;
+        align-items: center;
+        width: 70%;
+    
+        .progressbar{
+            background-color: #9ca6ff;
+            color: white;
+            padding: 1rem;
+            text-align: right;
+            font-size: 20px;
+            border-radius: 15px;
+            width: 90%;
+        }
+
+        img{
+            width: 60px;
+            margin-right: 5px;
+        }
+    }
+
+    .photoshop{
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        width: 70%;
+    
+        .progressbar{
+            background-color: #9ca6ff;
+            color: white;
+            padding: 1rem;
+            text-align: right;
+            font-size: 20px;
+            border-radius: 15px;
+            width: 70%;
+        }
+
+        img{
+            width: 60px;
+            margin-right: 5px;
+        }
+    }
+
+    .premiere{
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        width: 70%;
+    
+        .progressbar{
+            background-color: #9ca6ff;
+            color: white;
+            padding: 1rem;
+            text-align: right;
+            font-size: 20px;
+            border-radius: 15px;
+            width: 70%;
+        }
+
+        img{
+            width: 60px;
+            margin-right: 5px;
+        }
+}
+
+.progressbar-wrapper {
+    background-color: white;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+}
+}

@@ -1,0 +1,36 @@
+.ttservices{
+    margin-top: 50px;
+    display: flex;
+
+    .left{
+        display: flex;
+        flex-direction: column;
+
+        .site {
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+        
+            img{
+                display: block;
+                height: 80px;
+                width: 80px;
+            }
+
+            h3 {
+                color: white;
+                font-size: 30px;
+            }
+    }
+}
+    .right{
+        display: flex;
+        flex-direction: column;
+
+        .site {
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+}
+}
