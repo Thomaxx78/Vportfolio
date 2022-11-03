@@ -36,7 +36,7 @@ html {
                     width: 400px;
                     margin-top: 10px;
                 }
-                 
+
                 .text {
                     color: white;
 
@@ -120,7 +120,6 @@ html {
             }
 
             .hrservices{
-                position: relative;
                 width: 2px;
                 height: 500px; 
                 background-color: rgb(156, 166, 255);
@@ -130,7 +129,36 @@ html {
                 border: none;
             }
             
-            
+            .devui{
+                    display: flex;
+                    justify-content: center;
+                    gap: 200px;
+
+                img{
+                    width: 75px;
+                    height: 75px;
+                }
+
+                .uiblanc{
+                    display: none;
+                }
+
+                .uiblanc:hover{
+                    display: block;
+
+                    .uiviolet{
+                        display: none;
+                    }
+                }
+
+                .uiviolet:hover{
+                    display: none;
+
+                    .uiblanc{
+                        display: block;
+                    }
+                }
+            }
         }
     }
 

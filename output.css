@@ -107,7 +107,6 @@ html {
   margin-top: 25px;
 }
 * body .hrservices {
-  position: relative;
   width: 2px;
   height: 500px;
   background-color: rgb(156, 166, 255);
@@ -115,6 +114,30 @@ html {
   margin-left: auto;
   margin-right: auto;
   border: none;
+}
+* body .devui {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+* body .devui img {
+  width: 75px;
+  height: 75px;
+}
+* body .devui .uiblanc {
+  display: none;
+}
+* body .devui .uiblanc:hover {
+  display: block;
+}
+* body .devui .uiblanc:hover .uiviolet {
+  display: none;
+}
+* body .devui .uiviolet:hover {
+  display: none;
+}
+* body .devui .uiviolet:hover .uiblanc {
+  display: block;
 }
 
 header {
@@ -128,6 +151,7 @@ header .port {
   font-size: 250%;
 }
 header li {
+  position: relative;
   list-style: none;
 }
 header li a {
@@ -145,6 +169,23 @@ header nav {
   height: 100px;
   overflow: hidden;
   z-index: 1;
+}
+header nav a:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  display: block;
+  margin-top: 2px;
+  right: 0;
+  background: #fff;
+  transition: width 0.3s ease;
+  -webkit-transition: width 0.3s ease;
+}
+header nav a:hover:after {
+  width: 100%;
+  left: 0;
+  background: #fff;
 }
 header nav ul {
   display: flex;
@@ -186,12 +227,6 @@ header .navmenu {
 }
 header .nav-branding {
   font-size: 2rem;
-}
-header .nav-link {
-  transition: 0.7s ease;
-}
-header .nav-link:hover {
-  color: black;
 }
 header .hamburger {
   display: none;
