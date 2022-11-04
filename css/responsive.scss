@@ -85,6 +85,7 @@
     
             .hamburger{
                 display: block;
+                margin-right: 10px;
             }
             .hamburger.active .bar:nth-child(2){
                 opacity: 0;
@@ -191,6 +192,10 @@
                 font-size: 45px;
             }
 
+            .services{
+                font-size: 50px;
+            }
+
             .container{
 
                 .html{
@@ -224,6 +229,17 @@
                 .premiere{
                     width: 90%;
                 }
+
+                
             }
+
+            .devui{
+                flex-direction: column;
+                
+                .gauche{
+                    border-right: none;
+                }
+            }
+
         }
         }

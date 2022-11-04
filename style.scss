@@ -8,7 +8,7 @@
         ::selection {
             color: white;
             background: rgb(156, 166, 255);
-          }
+        }
 
         body{
             border-right: solid 10px rgb(156, 166, 255);
@@ -106,6 +106,13 @@
                 margin-top: 100px;
                 font-size: 400%;
             }
+
+            .services{
+                position: relative;
+                color: white;
+                text-align: center;
+                font-size: 400%;
+            }
             
                 .hrtitre {
                     height: 3px;
@@ -126,7 +133,6 @@
                         text-align: end;
                         display: flex;
                         flex-direction: column;
-                        margin-right: 10%;
                         gap: 50px;
                         border-right: solid 3px #9ca6ff;
                         padding-right: 10%;
@@ -136,7 +142,7 @@
                         .devsite{
                             display: flex;
                             align-items: center;
-                            gap: 50px;
+                            gap: 5%;
                         }
                     }
 
@@ -145,19 +151,18 @@
                         flex-direction: column;
                         align-items: center;
                         gap: 50px;
+                        padding-left: 10%;
                         padding-top: 50px;
                         padding-bottom: 50px;
                         text-align: start;
 
                         div{
                             display: flex;
-                            gap: 50px;
+                            gap: 5%;
                             align-items: center;
                         }
                     } 
-
-
-                        p{
+                        h2{
                             color: white;
                             width: 300px;
                         }
