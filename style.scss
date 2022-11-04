@@ -124,10 +124,9 @@
             }
 
             .devui{
-                    margin-top: 200px;
+                    margin-top: 100px;
                     display: flex;
                     justify-content: center;
-                    margin-top: 50px;
 
                     .gauche{
                         text-align: end;
@@ -144,9 +143,16 @@
                             align-items: center;
                             gap: 5%;
                         }
+
+                        .word{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 35px;
+                        }
                     }
 
                     .droite{
+                        margin-top: 70px;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
@@ -160,6 +166,10 @@
                             display: flex;
                             gap: 5%;
                             align-items: center;
+
+                            br{
+                                display: none;
+                            }
                         }
                     } 
                         h2{

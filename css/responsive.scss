@@ -102,7 +102,7 @@
             .nav-menu{
                 position: fixed;
                 left: -100%;
-                top: 116px;
+                top: 100px;
                 gap: 0;
                 flex-direction: column;
                 background-color: rgb(132, 140, 213);
@@ -235,10 +235,41 @@
 
             .devui{
                 flex-direction: column;
+                margin-top: 50px;
                 
                 .gauche{
                     border-right: none;
+                    padding-top: 0px;
+                    
+
+                    .word{
+                        margin-top: 0;
+                        padding-left: 10%;
+                        gap: 5%;
+
+                        h2{
+                            text-align: start;
+                        }
+
+                            img{
+                                order: -1;
+                            }
+                        }
                 }
+
+                .droite{
+                    margin-top: 0px;
+                    padding-top: 0;
+                    padding-right: 20%;
+                    gap: 5%;
+
+                    h2 {
+                        order:-1;
+                        text-align: end;
+                    }
+                }
+
+                
             }
 
         }
