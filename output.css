@@ -131,6 +131,7 @@
   display: flex;
   align-items: center;
   margin-top: 35px;
+  gap: 5%;
 }
 * body .devui .droite {
   margin-top: 70px;
@@ -825,6 +826,10 @@ header .bar {
   }
   body .services {
     font-size: 50px;
+    margin-top: 20px;
+  }
+  body .container {
+    height: 38vh;
   }
   body .container .html {
     width: 90%;
@@ -873,7 +878,9 @@ header .bar {
     margin-top: 0px;
     padding-top: 0;
     padding-right: 20%;
-    gap: 5%;
+  }
+  body .devui .droite div {
+    gap: 1%;
   }
   body .devui .droite h2 {
     order: -1;

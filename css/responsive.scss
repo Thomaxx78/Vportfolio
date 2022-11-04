@@ -194,9 +194,12 @@
 
             .services{
                 font-size: 50px;
+                margin-top: 20px;
             }
 
             .container{
+
+                height: 38vh;
 
                 .html{
                     width: 90%;
@@ -261,7 +264,10 @@
                     margin-top: 0px;
                     padding-top: 0;
                     padding-right: 20%;
-                    gap: 5%;
+                    
+                    div{
+                        gap: 1%;
+                    }
 
                     h2 {
                         order:-1;
