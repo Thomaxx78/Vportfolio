@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-style: arial;
 }
+* ::selection {
+  color: white;
+  background: rgb(156, 166, 255);
+}
 * body {
   border-right: solid 10px rgb(156, 166, 255);
   border-left: solid 10px rgb(156, 166, 255);
@@ -97,19 +101,45 @@
   margin: auto;
   margin-top: 25px;
 }
-* body .hrservices {
-  width: 2px;
-  height: 500px;
-  background-color: rgb(156, 166, 255);
-  margin-top: 125px;
-  margin-left: auto;
-  margin-right: auto;
-  border: none;
-}
 * body .devui {
+  margin-top: 200px;
   display: flex;
   justify-content: center;
-  gap: 200px;
+  margin-top: 50px;
+}
+* body .devui .gauche {
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+  gap: 50px;
+  border-right: solid 3px #9ca6ff;
+  padding-right: 10%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+* body .devui .gauche .devsite {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+* body .devui .droite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: start;
+}
+* body .devui .droite div {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+* body .devui p {
+  color: white;
+  width: 300px;
 }
 * body .devui .flexdev {
   display: flex;
@@ -121,11 +151,11 @@
   width: 75px;
   height: 75px;
 }
-* body .devui img:hover {
-  background-color: black;
-}
-* body .devui img:hover .dev {
-  opacity: 100%;
+* body .devui .hrservices {
+  width: 2px;
+  height: 500px;
+  background-color: rgb(156, 166, 255);
+  border: none;
 }
 
 header {
@@ -137,6 +167,7 @@ header {
 header .port {
   color: white;
   font-size: 250%;
+  text-decoration: none;
 }
 header li {
   position: relative;
@@ -145,6 +176,7 @@ header li {
 header li a {
   color: beige;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 header nav {
   position: fixed;
@@ -716,6 +748,9 @@ header .bar {
   header .nav-menu.active {
     left: 0;
   }
+  body .hrtitre {
+    width: 100px;
+  }
   body .conteneur1 {
     height: 400px;
     flex-direction: column;
@@ -767,6 +802,7 @@ header .bar {
   }
   body .competences {
     margin-top: 55px;
+    font-size: 50px;
   }
   body .container .html {
     width: 90%;
