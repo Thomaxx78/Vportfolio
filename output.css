@@ -768,6 +768,30 @@ header .bar {
   body .competences {
     margin-top: 55px;
   }
+  body .container .html {
+    width: 90%;
+  }
+  body .container .css {
+    width: 90%;
+  }
+  body .container .js {
+    width: 90%;
+  }
+  body .container .php {
+    width: 90%;
+  }
+  body .container .donnes {
+    width: 90%;
+  }
+  body .container .XD {
+    width: 90%;
+  }
+  body .container .photoshop {
+    width: 90%;
+  }
+  body .container .premiere {
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */
