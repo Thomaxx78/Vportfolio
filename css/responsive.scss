@@ -37,10 +37,10 @@
         .nav-menu{
             position: fixed;
             left: -100%;
-            top: 116px;
+            top: 100px;
             gap: 0;
             flex-direction: column;
-            background-color: rgb(148, 186, 199);
+            background-color: rgb(132, 140, 213);
             width: 100%;
             text-align: center;
             transition: 0.3s;
@@ -59,15 +59,20 @@
     @media screen and (max-width: 800px) {
 
         header{
-    
+            margin-bottom: 0px;
     
             nav{
-                
+                margin-bottom: 0px;
                 .gdn{
                     color: beige;
                     font-size: 25px;
                     margin-top: 0px;
                     margin-left: 0px;
+                }
+
+                .port{
+                    font-size: 30px;
+                    text-decoration: none;
                 }
         
                 .logotext{
@@ -99,7 +104,7 @@
                 top: 116px;
                 gap: 0;
                 flex-direction: column;
-                background-color: rgb(148, 186, 199);
+                background-color: rgb(132, 140, 213);
                 width: 100%;
                 text-align: center;
                 transition: 0.3s;
@@ -113,4 +118,70 @@
             .nav-menu.active{
                 left: 0;
             }
-            }}
+            }
+
+        body{
+            .conteneur1{
+                height: 400px;
+                flex-direction: column;
+                gap: none;
+                border-width: 4px;
+                margin-top: 0px;
+                text-align: center;
+                gap: 0px;
+
+                .nom{
+                    font-size: 50px;
+                }
+
+                .text{
+                    margin-top: 0px;
+                    font-size: 15px;
+                }
+
+                p{
+                    display: none;
+                }
+
+                .thomas{
+                    width: 200px;
+                    height: 200px;
+                    margin-bottom: 0px;
+                    margin: 10px;
+                }
+
+                .button{
+                    display: flex;
+                    margin-top: 15px;
+                    justify-content: center;
+
+                    .cv{
+                        font-style: Arial;
+                        font-size: 20px;
+                        padding-top: 7px;
+                        padding-bottom: 7px;
+                        padding-right: 35px;
+                        padding-left: 35px;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                    }
+
+                    .contact{
+                        font-size: 20px;
+                        padding-top: 7px;
+                        padding-bottom: 7px;
+                        padding-right: 10px;
+                        padding-left: 10px;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                    }
+                }
+
+                
+            }
+
+            .competences{
+                margin-top: 55px;
+            }
+        }
+        }

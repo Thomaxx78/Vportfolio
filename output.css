@@ -1,18 +1,8 @@
-html {
-  scroll-behavior: smooth;
-}
-
-:target:before {
-  content: "";
-  display: block;
-  height: 100px;
-  margin: -100px 0 0;
-}
-
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-style: arial;
 }
 * body {
   border-right: solid 10px rgb(156, 166, 255);
@@ -44,7 +34,7 @@ html {
   font-size: 200%;
 }
 * body .conteneur1 .nom {
-  font-size: 380%;
+  font-size: 65px;
 }
 * body .conteneur1 .info {
   color: rgb(157, 154, 154);
@@ -52,8 +42,9 @@ html {
   text-align: left;
 }
 * body .conteneur1 .cv {
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration-line: none;
-  font-size: 150%;
+  font-size: 25px;
   color: white;
   background-color: #323233;
   border-radius: 30px;
@@ -71,7 +62,7 @@ html {
   transition-duration: 0.5s;
 }
 * body .conteneur1 .contact {
-  font-size: 150%;
+  font-size: 25px;
   color: white;
   background-color: #323233;
   border-radius: 30px;
@@ -120,24 +111,21 @@ html {
   justify-content: center;
   gap: 200px;
 }
+* body .devui .flexdev {
+  display: flex;
+}
+* body .devui .flexdev .dev {
+  opacity: 0%;
+}
 * body .devui img {
   width: 75px;
   height: 75px;
 }
-* body .devui .uiblanc {
-  display: none;
+* body .devui img:hover {
+  background-color: black;
 }
-* body .devui .uiblanc:hover {
-  display: block;
-}
-* body .devui .uiblanc:hover .uiviolet {
-  display: none;
-}
-* body .devui .uiviolet:hover {
-  display: none;
-}
-* body .devui .uiviolet:hover .uiblanc {
-  display: block;
+* body .devui img:hover .dev {
+  opacity: 100%;
 }
 
 header {
@@ -170,7 +158,7 @@ header nav {
   overflow: hidden;
   z-index: 1;
 }
-header nav a:after {
+header nav .nav-item:after {
   content: "";
   position: absolute;
   width: 0;
@@ -182,7 +170,7 @@ header nav a:after {
   transition: width 0.3s ease;
   -webkit-transition: width 0.3s ease;
 }
-header nav a:hover:after {
+header nav .nav-item:hover:after {
   width: 100%;
   left: 0;
   background: #fff;
@@ -659,10 +647,10 @@ header .bar {
   header .nav-menu {
     position: fixed;
     left: -100%;
-    top: 116px;
+    top: 100px;
     gap: 0;
     flex-direction: column;
-    background-color: rgb(148, 186, 199);
+    background-color: rgb(132, 140, 213);
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -676,11 +664,21 @@ header .bar {
   }
 }
 @media screen and (max-width: 800px) {
+  header {
+    margin-bottom: 0px;
+  }
+  header nav {
+    margin-bottom: 0px;
+  }
   header nav .gdn {
     color: beige;
     font-size: 25px;
     margin-top: 0px;
     margin-left: 0px;
+  }
+  header nav .port {
+    font-size: 30px;
+    text-decoration: none;
   }
   header nav .logotext {
     display: flex;
@@ -706,7 +704,7 @@ header .bar {
     top: 116px;
     gap: 0;
     flex-direction: column;
-    background-color: rgb(148, 186, 199);
+    background-color: rgb(132, 140, 213);
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -717,6 +715,58 @@ header .bar {
   }
   header .nav-menu.active {
     left: 0;
+  }
+  body .conteneur1 {
+    height: 400px;
+    flex-direction: column;
+    gap: none;
+    border-width: 4px;
+    margin-top: 0px;
+    text-align: center;
+    gap: 0px;
+  }
+  body .conteneur1 .nom {
+    font-size: 50px;
+  }
+  body .conteneur1 .text {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  body .conteneur1 p {
+    display: none;
+  }
+  body .conteneur1 .thomas {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0px;
+    margin: 10px;
+  }
+  body .conteneur1 .button {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+  }
+  body .conteneur1 .button .cv {
+    font-style: Arial;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  body .conteneur1 .button .contact {
+    font-size: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  body .competences {
+    margin-top: 55px;
   }
 }
 

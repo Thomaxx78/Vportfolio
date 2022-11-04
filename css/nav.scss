@@ -31,7 +31,7 @@ header{
         overflow: hidden;
         z-index: 1;
 
-        a:after{
+        .nav-item:after{
             content: '';
             position: absolute;
             width: 0; height: 3px;
@@ -43,7 +43,7 @@ header{
             -webkit-transition: width .3s ease;
         }
 
-            a:hover:after{
+            .nav-item:hover:after{
                 width: 100%;
                 left: 0;
                 background: #fff;
