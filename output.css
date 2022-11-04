@@ -679,7 +679,7 @@ header .bar {
   header .nav-menu {
     position: fixed;
     left: -100%;
-    top: 100px;
+    top: 0px;
     gap: 0;
     flex-direction: column;
     background-color: rgb(132, 140, 213);
@@ -748,6 +748,10 @@ header .bar {
   header .nav-menu.active {
     left: 0;
   }
+  body {
+    border-right: 0px;
+    border-left: 0px;
+  }
   body .hrtitre {
     width: 100px;
   }
@@ -802,7 +806,7 @@ header .bar {
   }
   body .competences {
     margin-top: 55px;
-    font-size: 50px;
+    font-size: 45px;
   }
   body .container .html {
     width: 90%;

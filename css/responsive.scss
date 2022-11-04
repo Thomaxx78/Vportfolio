@@ -37,7 +37,7 @@
         .nav-menu{
             position: fixed;
             left: -100%;
-            top: 100px;
+            top: 0px;
             gap: 0;
             flex-direction: column;
             background-color: rgb(132, 140, 213);
@@ -121,6 +121,8 @@
             }
 
         body{
+            border-right: 0px;
+            border-left: 0px;
 
             .hrtitre{
                 width: 100px;
@@ -186,7 +188,7 @@
 
             .competences{
                 margin-top: 55px;
-                font-size: 50px;
+                font-size: 45px;
             }
 
             .container{
