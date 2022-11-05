@@ -727,6 +727,7 @@ body .centrer .descr {
 body .centrer .input {
   display: flex;
   flex-direction: column;
+  gap: 25px;
 }
 body .centrer input {
   color: rgb(156, 166, 255);
@@ -778,6 +779,7 @@ body .reseaux {
   justify-content: center;
   margin-top: 65px;
   gap: 75px;
+  margin-bottom: 100px;
 }
 body .reseaux img {
   width: 70px;

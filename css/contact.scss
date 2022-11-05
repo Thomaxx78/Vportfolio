@@ -67,6 +67,7 @@ body{
                 .input{
                     display: flex;
                     flex-direction: column;
+                    gap: 25px;
                 }
 
                 input{
@@ -117,7 +118,7 @@ body{
             position: relative;
             color: white;
             text-align: center;
-            font-size: 65px;
+            font-size: 65px; 
             margin-top: 65px;
         }
 
@@ -126,6 +127,7 @@ body{
             justify-content: center;
             margin-top: 65px;
             gap: 75px;
+            margin-bottom: 100px;
 
             img{
                 width: 70px;
