@@ -1054,6 +1054,9 @@ body .wewe:hover {
   .pagecontact .centrer {
     gap: 100px;
   }
+  .pagecontact .centrer div {
+    margin-top: 35px;
+  }
   .pagecontact .centrer .input {
     width: 150px;
   }
