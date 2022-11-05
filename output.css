@@ -16,7 +16,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
   gap: 8%;
 }
 * body .conteneur1 .thomas {
@@ -613,7 +612,7 @@ header .bar {
   justify-content: left;
   margin-left: 5%;
   gap: 4%;
-  margin-top: 300px;
+  margin-top: 100px;
 }
 .portfolio .home a {
   margin-top: 5px;
@@ -643,7 +642,7 @@ header .bar {
   justify-content: right;
   margin-right: 5%;
   gap: 4%;
-  margin-top: 300px;
+  margin-top: 100px;
 }
 .portfolio .aubon img {
   width: 40%;
@@ -1084,8 +1083,8 @@ body .reseaux .linked {
     width: 150px;
   }
   .pagecontact .wewe {
-    font-size: 10px;
-    width: 80px;
+    font-size: 13px;
+    width: 90px;
   }
   .pagecontact .mesreseaux {
     font-size: 45px;
