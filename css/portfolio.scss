@@ -22,6 +22,10 @@
             flex-direction: column;
             text-align:left;
 
+            h2{
+                display: none;
+            }
+
             h1{
                 color: white;
                 font-size: 50px; 
@@ -32,6 +36,24 @@
                 width: 80%; 
                 font-size: 120%;
             }
+
+            .lang{
+                display: flex;
+                gap: 20px;
+                margin-top: 15px;
+                align-items: center;
+
+                img{
+                    height: 40px;
+                    width: 40px;
+                }
+
+                .clejs{
+                    margin-top: 6px;
+                    height: 35px;
+                    width: 35px;
+                }
+            }
         }
     }
 
@@ -40,7 +62,8 @@
         justify-content: right;
         margin-right: 5%;
         gap: 4%;
-        margin-top: 100px;
+        margin-top: 200px;
+        margin-bottom: 100px;
 
         img{
             width: 40%;
@@ -51,6 +74,29 @@
             display: flex;
             flex-direction: column;
             text-align:right;
+
+            h2{
+                display: none;
+            }
+
+            .lang{
+                display: flex;
+                gap: 20px;
+                margin-top: 15px;
+                align-items: center;
+                justify-content: right;
+
+                img{
+                    height: 40px;
+                    width: 40px;
+                }
+
+                .clejs{
+                    margin-top: 6px;
+                    height: 35px;
+                    width: 35px;
+                }
+            }
 
             h1{
                 color: white;
