@@ -244,6 +244,10 @@
                 .gauche{
                     border-right: none;
                     padding-top: 0px;
+
+                    h2{
+                        font-size: 30px;
+                    }
                     
 
                     .word{
@@ -253,6 +257,7 @@
 
                         h2{
                             text-align: start;
+                            font-size: 30px;
                         }
 
                             img{
@@ -273,6 +278,7 @@
                     h2 {
                         order:-1;
                         text-align: end;
+                        font-size: 30px;
                     }
                 }
 
@@ -417,7 +423,7 @@
                     }
 
                     .input{
-                        margin-top: 45px;
+                        margin-top: 41px;
                         width: 150px;
                     }
                 }
