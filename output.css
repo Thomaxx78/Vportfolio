@@ -153,6 +153,7 @@
 * body .devui h2 {
   color: white;
   width: 300px;
+  font-size: 30px;
 }
 * body .devui .flexdev {
   display: flex;
@@ -161,8 +162,8 @@
   opacity: 0%;
 }
 * body .devui img {
-  width: 75px;
-  height: 75px;
+  width: 90px;
+  height: 90px;
 }
 * body .devui .hrservices {
   width: 2px;
@@ -640,6 +641,7 @@ header .bar {
   color: rgb(157, 154, 154);
   width: 80%;
   font-size: 120%;
+  margin-top: 5px;
 }
 .portfolio .home .hometext .lang {
   display: flex;
@@ -702,6 +704,7 @@ header .bar {
   margin-right: 0%;
   margin-left: auto;
   font-size: 120%;
+  margin-top: 5px;
 }
 
 body .contactt {
